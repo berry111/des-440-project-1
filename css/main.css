@@ -72,10 +72,9 @@ html {
 /* END BOX MODEL SETTINGS */
 
 body {
-  font-size: 14px; /* Base Size */
+  font-size: 20px; /* Base Size */
   /*Setting the base font family*/
   font-family: "Source Serif Pro", Serif;
-  margin: 0;
   padding: 0;
 }
 
@@ -88,8 +87,9 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 500px;
   max-height: 100%;
+    margin:0 auto;
 }
 
 .pullquote p {
