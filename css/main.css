@@ -79,8 +79,21 @@ body {
   padding: 0;
 }
 
+.text p {
+ font-size: 15px;
+}
+
 .text {
-  font-
+  max-width: 400px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.pullquote p {
+  font-size: 20px;
 }
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
