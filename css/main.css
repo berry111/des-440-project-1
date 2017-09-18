@@ -70,30 +70,52 @@ html {
   box-sizing: inherit;
 }
 /* END BOX MODEL SETTINGS */
-
+head {
+  background-image: url("img/placeholder.png");
+  margin-left:50%;
+  text-align: center;
+}
 body {
-  font-size: 20px; /* Base Size */
+  font-size: 13px; /* Base Size */
   /*Setting the base font family*/
   font-family: "Source Serif Pro", Serif;
-  padding: 0;
+  background-color: #ffac5a;
 }
 
-.text p {
- font-size: 15px;
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .text {
   max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 1px;
+  padding-bottom:1px;
+}
+.text p {
+ font-size: 15px;
+ text-align: center;
 }
 
-img {
+.container img {
   max-width: 500px;
   max-height: 100%;
-    margin:0 auto;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
+.pullquote {
+  max-width: 500px;
+  margin: 0 auto;
+}
 .pullquote p {
   font-size: 20px;
+  color: #42528c;
 }
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
