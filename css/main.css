@@ -70,11 +70,18 @@ html {
   box-sizing: inherit;
 }
 /* END BOX MODEL SETTINGS */
-head {
-  background-image: url("img/placeholder.png");
-  margin-left:50%;
-  text-align: center;
+
+.header {
+  height: 400px;
+  background-color: #474747;
+  margin-top: -20px;
 }
+
+.header h1 {
+  text-align: center;
+  padding-top: 10%;
+}
+
 body {
   font-size: 13px; /* Base Size */
   /*Setting the base font family*/
@@ -88,11 +95,11 @@ body {
 }
 
 .text {
-  max-width: 400px;
+  max-width: 550px;
   margin: 0 auto;
   background-color: white;
-  padding-right: 2px;
-  padding-left: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
   padding-top: 1px;
   padding-bottom:1px;
 }
@@ -102,8 +109,9 @@ body {
 }
 
 .container img {
-  max-width: 500px;
+  max-width: 900px;
   max-height: 100%;
+  padding-left: 0%;
   position: relative;
   padding-top: 50px;
   padding-bottom: 15px;
@@ -118,6 +126,13 @@ body {
   color: #42528c;
 }
 
+
+footer {
+  height: 200px;
+  width:100%;
+  margin-top: 100px;
+  background-color: #474747;
+}
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
