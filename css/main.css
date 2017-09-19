@@ -72,18 +72,28 @@ html {
 /* END BOX MODEL SETTINGS */
 
 .header {
-  height: 400px;
+  height: 900px;
   background-color: #474747;
-  margin-top: -20px;
+  margin-top: -3%;
 }
 
 .header h1 {
   text-align: center;
-  padding-top: 10%;
+  padding-top: 25%;
+  font-size: 50px;
+  text-decoration: underline;
+  color: #42528c;
+}
+
+.header h2 {
+  text-align: center;
+  margin-top: -3%;
+  font-size: 60px;
+  color: #ffac5a;
 }
 
 body {
-  font-size: 13px; /* Base Size */
+  font-size: 12px; /* Base Size */
   /*Setting the base font family*/
   font-family: "Source Serif Pro", Serif;
   background-color: #ffac5a;
@@ -104,34 +114,47 @@ body {
   padding-bottom:1px;
 }
 .text p {
- font-size: 15px;
+ font-size: 14px;
  text-align: center;
 }
 
-.container img {
+.images {
   max-width: 900px;
   max-height: 100%;
   padding-left: 0%;
   position: relative;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 15px;
+  transition:
 }
 
+
 .pullquote {
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .pullquote p {
-  font-size: 20px;
+  font-size: 24px;
   color: #42528c;
+  text-align: center;
+  line-height: 24px;
+
+  font-style: oblique;
 }
 
 
 footer {
-  height: 200px;
+  height: 500px;
   width:100%;
   margin-top: 100px;
   background-color: #474747;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 6%;
+  font-size: 40px;
+  color: #ffac5a;
 }
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
