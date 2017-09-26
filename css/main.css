@@ -71,26 +71,31 @@ html {
 }
 /* END BOX MODEL SETTINGS */
 
+
+
 .header {
-  height: 100%;
-  background-color: #474747;
-  margin-top: -20%;
+  max-height:100%;
+  background: #474747 url("img/splash-01.png");
+  margin-top: -10%;
 }
 
 .header h1 {
   text-align: center;
-  padding-top: 25%;
+  padding-top: 15%;
   font-size: 50px;
   text-decoration: underline;
   color: #42528c;
+  line-height: 8px;
 }
 
 .header h2 {
   text-align: center;
-  margin-top: -3%;
+  padding-bottom: 10%;
   font-size: 60px;
   color: #ffac5a;
+  line-height: 8px;
 }
+
 
 body {
   font-size: 12px; /* Base Size */
@@ -100,12 +105,12 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .text {
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   background-color: white;
   padding-right: 10px;
@@ -149,13 +154,15 @@ body {
 
 
 footer {
-  height: 500px;
+  height: 80%;
   width:100%;
   margin-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("img/splash-01.png");
   background-color: #474747;
 }
 
-footer p {
+footer h3 {
   text-align: center;
   padding-top: 6%;
   font-size: 40px;
